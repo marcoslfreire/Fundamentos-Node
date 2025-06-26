@@ -18,6 +18,8 @@ export const routes = [
             name: search,
             email: search
           } : null)
+
+        // const users = database.select('users')
     
           return res.end(JSON.stringify(users))
         }
